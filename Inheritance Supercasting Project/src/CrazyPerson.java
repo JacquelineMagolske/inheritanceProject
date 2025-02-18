@@ -1,17 +1,20 @@
 
-public class CrazyPerson
+public abstract class CrazyPerson
 	{
+		protected String x;
 		
-		public static void getObsessed()
+				
+		public void getObsessed()
 			{
 			System.out.println("I LOVE LOVE LOVE LOVE LOVE AHHH");
 			}
 			
-		public static void stalk()
+		public void stalk()
 			{
 			System.out.println("I know everything about them");
 			}
 
+		public abstract void runAway();
 
-		public abstract void move();
+		
 	}
