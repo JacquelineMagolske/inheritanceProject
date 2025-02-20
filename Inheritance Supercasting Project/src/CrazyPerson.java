@@ -1,8 +1,13 @@
 
 public abstract class CrazyPerson
 	{
-		protected String x;
+		protected String crazy = "crazy person"; //superclass variable
 		
+		public CrazyPerson()
+		{
+			System.out.println("Crazy person constructor called");
+			
+		}
 				
 		public void getObsessed()
 			{
@@ -14,7 +19,7 @@ public abstract class CrazyPerson
 			System.out.println("I know everything about them");
 			}
 
-		public abstract void runAway();
+		public abstract void runAway(); // implemented by the subclass
 
 		
 	}
